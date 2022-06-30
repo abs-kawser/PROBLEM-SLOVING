@@ -1,4 +1,4 @@
-// difference between call back function and higher order function
+// difference between higher order function function and call back
 
 //what is higher order function?
 //Ans:function which take's another function as ***argument*** is called HOF
