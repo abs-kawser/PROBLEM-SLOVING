@@ -1,0 +1,16 @@
+const a = 10;
+const b = 10;
+const c = 100;
+
+const d = a * 2;
+
+if (a == b && c > b) {
+  setTimeout(function () {
+    alert("hi there !");
+  }, 5000); //wait 2 seconds
+  alert("hi you are true");
+} else {
+  alert("hi you are false");
+}
+
+// (a==b) ? alert('hi you are true') :alert('hi you are false')
