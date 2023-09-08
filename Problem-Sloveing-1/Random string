@@ -1,0 +1,27 @@
+
+
+
+//  const c=`1`+1
+//  console.log( c )
+ 
+ const items = ["johirxxx" , "roh" , "korimx" ]
+ let totalLength = 0;
+ 
+  const result = items.map((item)=>{
+if (item.length >= 5) {
+    return item + " " + `welcome you are big value `;
+  } 
+  else {
+    return null
+  }
+       
+ }).filter(Boolean)
+ 
+ console.log(result)
+ 
+//  const items = ["johirxxx", "roh", "korimx"];
+
+// // Filter items with a length greater than or equal to 5
+// const result = items.filter((item) => item.length >= 5);
+
+// console.log(result);
